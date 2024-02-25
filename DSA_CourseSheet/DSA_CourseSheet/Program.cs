@@ -1,4 +1,5 @@
-﻿using DSA_CourseSheet.Generic;
+﻿using DSA_CourseSheet.BasicMaths;
+using DSA_CourseSheet.Generic;
 using DSA_CourseSheet.Patterns;
 using static DSA_CourseSheet.Delegates.DelegateSample;
 
@@ -9,13 +10,21 @@ namespace DSA_CourseSheet
         public static void Main(string[] args)
         {
 
+            /*     Pattern        */
             //patternCallMethod();
-            //genericCallMethod();
-            helloWorld obj = add;
-            obj += sub;
-            int output = obj(1, 3);
-            Console.WriteLine(obj(1, 3));
 
+            /*     Generic Type Collections         */
+            //genericCallMethod();
+
+            /*     Basic Maths         */
+            BasicMathsProgram basicMath = new();
+            int ff = basicMath.Reverse(1534236469);
+
+            /*     Delegates         */
+            //helloWorld obj = add;
+            //obj += sub;
+            //int output = obj(1, 3);
+            //Console.WriteLine(obj(1, 3));
 
             Console.ReadKey();
         }
