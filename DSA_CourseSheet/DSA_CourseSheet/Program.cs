@@ -17,14 +17,14 @@ namespace DSA_CourseSheet
             //genericCallMethod();
 
             /*     Basic Maths         */
-            BasicMathsProgram basicMath = new();
-            int ff = basicMath.Reverse(1534236469);
+            //BasicMathsProgram basicMath = new();
+            //int output = basicMath.Reverse(-1534236469);
 
             /*     Delegates         */
-            //helloWorld obj = add;
-            //obj += sub;
-            //int output = obj(1, 3);
-            //Console.WriteLine(obj(1, 3));
+            helloWorld obj = add;
+            obj += sub;
+            int output = obj(1, 3);
+            Console.WriteLine(obj(1, 3));
 
             Console.ReadKey();
         }
