@@ -1,5 +1,6 @@
 ﻿using DSA_CourseSheet.BasicMaths;
 using DSA_CourseSheet.Generic;
+using c=DSA_CourseSheet.LogicProblems;
 using DSA_CourseSheet.Patterns;
 using static DSA_CourseSheet.Delegates.DelegateSample;
 
@@ -21,10 +22,11 @@ namespace DSA_CourseSheet
             //int output = basicMath.Reverse(-1534236469);
 
             /*     Delegates         */
-            helloWorld obj = add;
-            obj += sub;
-            int output = obj(1, 3);
-            Console.WriteLine(obj(1, 3));
+            //helloWorld obj = add;
+            //obj += sub;
+            //int output = obj(1, 3);
+            //Console.WriteLine(obj(1, 3));
+            c.LogicProblem(
 
             Console.ReadKey();
         }
