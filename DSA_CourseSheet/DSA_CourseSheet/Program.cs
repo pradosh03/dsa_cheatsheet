@@ -14,6 +14,11 @@ namespace DSA_CourseSheet
             /*     Pattern        */
             //patternCallMethod();
 
+
+            /*Striver pattern*/
+            striversPatternCallMethod();
+
+
             /*     Generic Type Collections         */
             //genericCallMethod();
 
@@ -26,7 +31,9 @@ namespace DSA_CourseSheet
             //obj += sub;
             //int output = obj(1, 3);
             //Console.WriteLine(obj(1, 3));
-            c.LogicProblem(
+
+
+
 
             Console.ReadKey();
         }
@@ -54,6 +61,14 @@ namespace DSA_CourseSheet
 
             ////pattern.Pattern20(n);--Wrong Pattern
             pattern.Pattern21(n);
+
+        }
+        public static void striversPatternCallMethod()
+        {
+            StriverPattern striverPattern = new();
+            int n = 5;
+            //striverPattern.Pattern1(n);
+            striverPattern.Pattern2(n);
 
         }
         public static void genericCallMethod()
