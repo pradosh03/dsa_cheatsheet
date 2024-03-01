@@ -67,8 +67,18 @@ namespace DSA_CourseSheet
         {
             StriverPattern striverPattern = new();
             int n = 5;
-            //striverPattern.Pattern1(n);
-            striverPattern.Pattern2(n);
+            //striverPattern.pattern1(n);
+            //striverPattern.pattern2(n);
+            //striverPattern.pattern3(n);
+            //striverPattern.pattern4(n);
+            //striverPattern.pattern5(n);
+
+            //for (int i = 0; i < 10; i++)
+            //{
+                striverPattern.pattern5(5);
+
+            //}
+
 
         }
         public static void genericCallMethod()
